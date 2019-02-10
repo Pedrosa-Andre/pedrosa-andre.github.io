@@ -112,7 +112,7 @@ article img {
 
 .finalsec {
 	padding: 0.2em 7% 1em 7%;
-	line-height: 0.5em;
+	line-height: 0.9em;
 }
 
 /*to errase*/
@@ -125,6 +125,35 @@ article img {
 main {
 	display: block;
 	padding: 0.2em 5% 0em 5%;
+}
+
+.hero-div {
+	position: relative;
+}
+
+.hero-div img {
+	width: 85vw;
+}
+
+.stats {
+	position: absolute;
+	color: #fff;
+	top: 25px;
+	right: 50px;
+	background: radial-gradient(#4091b9, #2c6b8a);
+	border: 1px solid #1b412d;
+	padding: 1.5rem;
+	box-shadow: 0 0 15px #fcfbf5;
+}
+
+.stats h3 {
+	font-size: 0.9em;
+	margin: 10px 0px 15px;
+}
+
+.stats p {
+	font-size: 0.8em;
+	margin: 2px;
 }
 
 }
