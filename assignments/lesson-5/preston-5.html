@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,29 +8,36 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small-5.css">
     <link rel="stylesheet" href="styles/large-5.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="images/wtlogo.png" alt="WT logo">
-        <section class="headings">
-            <h1>Wheater for Trip</h1>
-        </section>
-        <div class="motto">motto or catch phrase</div>
-        <div class="button">Menu</div>
+        <div class="sitetitle">
+            <img src="images/wtlogo.png" alt="WT logo" class="logoimg">
+                <div class="ht">
+                    <h1 id="pagename">Wheater for Trips</h1>
+                    <div class="motto">
+                        motto or catch phrase
+                    </div>
+                </div>
+        </div>
+    
         <nav>
-                <h3>Weather Summary</h3>
-                <ul>
-                    <li><a href="menu.html">Menu</a></li>
-                    <li><a href="preston.html">Preston</a></li>
-                    <li><a href="soda-springs.html">Soda Springs</a></li>
-                    <li><a href="fish-haven.html">Fish Haven</a></li>
-                    <li><a href="storm-center.html">Storm Center</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
+            <!--<div class="button">Menu Button</div>-->
+            <div>
+                <ul class="menubar">
+                    <li><a href="home.html" class="lihome">Home</a></li>
+                    <li><a href="preston.html" class="lipreston">Preston</a></li>
+                    <li><a href="soda-springs.html" class="lisoda">Soda Springs</a></li>
+                    <li><a href="fish-haven.html" class="lifish">Fish Haven</a></li>
+                    <li><a href="storm-center.html" class="listorm">Storm Center</a></li>
+                    <li><a href="gallery.html" class="ligallery">Gallery</a></li>
                 </ul>
-            </nav>
+            </div>    	
+        </nav>
     </header>
+    
     <main>
         <h1>Town Name</h1>
         <div class="hero-image">
@@ -48,11 +54,13 @@
             <img src="images/articletest.jpg" alt="test-image">
         </article>
     </main>
-    <section>
+    
+    <section class="finalsec">
         <h2>Contact Information</h2>
         <p>nononn nonon ononononon onononon onon</p>
         <div class="map"></div>
     </section>
+    
     <footer>footer here</footer>
-</body>
-</html>
+
+</body></html>

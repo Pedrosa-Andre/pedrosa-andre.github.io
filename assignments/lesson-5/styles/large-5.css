@@ -1,0 +1,136 @@
+@media screen and (min-width: 500px) {
+
+    body {
+        background-color: #fcfbf5;
+    }
+    
+    header {
+        font-size: 40px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        margin: 10px auto;
+        background-color: #fff;
+        text-align: center;
+    }
+    
+    header img.logoimg {
+        width: 2.5em;
+        margin: 1em 0em 1em 1em;
+    }
+    
+    header #pagename {
+        font-size: 50px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        margin: 0em;
+    }
+    
+    header div.motto {
+        font-size: 20px;
+        color: #568f69;
+    }
+    
+    h1 {
+        font-size: 32px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+    }
+    
+    h2 {
+        font-size: 28px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+    }
+    
+    h3 {
+        font-size: 24px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+    }
+    
+    h4 {
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+    }
+    
+    p {
+        font-size: 16px;
+        font-family: 'Arvo', sans-serif;
+    }
+    
+    footer {
+        font-size: 20px;
+        font-family: 'Arvo', serif;
+    }
+    
+    header nav {
+        clear: both;
+        font-size: 30px;
+        font-family: 'Arvo', serif;
+        font-weight: 500;
+    }
+    
+    nav ul.menubar {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        padding: 0em;
+        margin: 0em 0em 1em 0em;
+    }
+    
+    nav ul li {
+        height: inherit;
+        list-style: none;
+    }
+    
+    nav li a {
+        font-size: 3vw;
+        height: inherit;
+        background-color:#4091b9;
+        color: #1b412d;
+        display: block;
+        padding: 0.2em;
+        border: 1px solid #000000;
+        text-decoration: none;
+    }
+    
+    nav li a:hover {
+        color: #fcfbf5;
+    }
+    
+    article img {
+        width: 50%;
+    }
+    
+    .sitetitle {
+        /*background-color: #4091b9;*/
+        background-color: #7bb7d5;
+        height: 200px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .lipreston {
+        background-color: #2c6b8a;
+    }
+    
+    .finalsec {
+        padding: 0.2em 7% 1em 7%;
+        line-height: 0.5em;
+    }
+    
+    /*to errase*/
+    .ht { 
+        margin: 0em 0.5em 0em 0.2em;
+        color: #1b412d
+    }
+    
+    /*to errase?*/
+    main {
+        display: block;
+        padding: 0.2em 5% 0em 5%;
+    }
+    
+    }
