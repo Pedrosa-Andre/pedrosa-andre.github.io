@@ -1,0 +1,55 @@
+@media screen and (min-width: 650px) {
+
+    nav button {
+        display: none;
+    }
+    
+    #hamb {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+    }
+
+    nav ul.hide {
+        display: flex;
+    }
+    
+    nav ul li {
+        float: left;
+        height: inherit;
+    }
+    
+    nav ul li a {
+        font-size: 3vw;
+        height: inherit;
+        border: 1px solid #000000;
+    }
+    
+    section.finalsec {
+        display: block;
+        margin: 0px auto;
+        max-width: 800px;
+    }
+    
+    main {
+        max-width: 800px;
+        margin: 0px auto;
+    }
+    
+    .hero-div img {
+        max-width: 800px;
+    }
+    
+    .stats {
+        top: 10%;
+        right: 10%;
+    }
+    
+    .stats h3 {
+        font-size: 4vw;
+    }
+    
+    .stats p {
+        font-size: 2.5vw;
+    }
+}
