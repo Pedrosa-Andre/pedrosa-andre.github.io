@@ -1,4 +1,4 @@
-@media screen and (min-width: 650px) {
+@media screen and (max-width: 900px) and (min-width:500px){
 
     nav button {
         display: none;
@@ -24,18 +24,27 @@
         height: inherit;
         border: 1px solid #000000;
     }
-    
+
+    div.gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+
     section.finalsec {
         display: block;
         margin: 0px auto;
         max-width: 800px;
     }
     
-    main {
+    main.main-preston {
         max-width: 800px;
         margin: 0px auto;
     }
-    
+
+    main.main-gallery {
+        max-width: auto;
+        padding: 0%;
+    }
+
     .hero-div img {
         max-width: 800px;
     }
@@ -48,8 +57,20 @@
     .stats h3 {
         font-size: 4vw;
     }
+
+    @media screen and (min-width: 800px) {
+        .stats h3 {
+            font-size: 32px;
+        }
+    }
     
     .stats p {
         font-size: 2.5vw;
+    }
+    
+    @media screen and (min-width: 700px) {
+        .stats p {
+            font-size: 17.5px;
+        }
     }
 }

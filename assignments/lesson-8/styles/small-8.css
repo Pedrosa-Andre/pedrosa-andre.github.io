@@ -22,6 +22,10 @@
 		display: none;
 	}
 
+	div.gallery {
+        grid-template-columns: 1fr;
+    }
+
 	.stats {
 		top: 25px;
 		right: 50px;
