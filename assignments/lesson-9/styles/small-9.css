@@ -1,0 +1,42 @@
+@media screen and (max-width: 500px) {
+
+	nav ul li a {
+		border-bottom: 1px solid #000000;
+	}
+
+	nav button {
+		background-color: #4091b9;
+		width: 100%;
+		padding: 0.2em;
+		border: none;
+		border-top: #000000 solid 1px;
+		border-bottom: #000000 solid 1px;
+	}
+
+	#hamb {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#hamb.hide {
+		display: none;
+	}
+
+	div.gallery {
+        grid-template-columns: 1fr;
+    }
+
+	.stats {
+		top: 25px;
+		right: 50px;
+	}
+
+	.stats h3 {
+		font-size: 0.9em;
+	}
+
+	.stats p {
+		font-size: 0.8em;
+	}
+
+}

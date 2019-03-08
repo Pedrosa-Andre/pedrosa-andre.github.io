@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Gallery of images">
+    <title>Weather for Trips | Galery</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small-9.css">    
+    <link rel="stylesheet" href="styles/medium-9.css">
+    <link rel="stylesheet" href="styles/large-9.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="sitetitle">
+            <img src="images/wtlogo.png" alt="WT logo" class="logoimg">
+                <div class="ht">
+                    <h1 id="pagename">Wheater for Trips</h1>
+                    <div class="motto">
+                        motto or catch phrase
+                    </div>
+                </div>
+        </div>
+    
+        <nav>
+            <button onclick="toggleMenu()"> &#9776; </button>
+            <div>
+                <ul class="hide" id="hamb">
+                    <li><a href="home.html" class="lihome">Home</a></li>
+                    <li><a href="preston-9.html" class="lipreston">Preston</a></li>
+                    <li><a href="soda-springs.html" class="lisoda">Soda Springs</a></li>
+                    <li><a href="fish-haven.html" class="lifish">Fish Haven</a></li>
+                    <li><a href="stormcenter.html" class="listorm current">Storm Center</a></li>
+                    <li><a href="gallery.html" class="ligallery">Gallery</a></li>
+                </ul>
+            </div>    	
+        </nav>
+    </header>
+    
+    <main>
+        <form method="get" action="thanks.html">
+            <label class="top"> Full Name*  <input type="text"  name="fullname" pattern="[A-Za-z]{5,}" required></label>
+            <label class="top"> Email       <input type="email" name="email"    placeholder="some@email.com"></label>
+            <label class="top"> Phone*      <input type="tel"   name="phone"    placeholder="1231231234" required></label>
+            <label class="top"> ZIP Code*   <input type="zip"   name="zip"      placeholder="123" required></label>
+            <label class="top"> Storm Date  <input type="date"  name="strormdate"></label>
+            <label class="top"> Storm type  <input list="stormtype" name="stormtype">
+                                    <datalist id="stormtype">
+                                        <option value="Flash Flood">
+                                        <option value="Hail">
+                                        <option value="Hurricane">
+                                        <option value="Thunderstorm">
+                                        <option value="Tornado">
+                                    </datalist>
+            </label>
+            <label class="top"> Storm Severity <input type="range" name="stormseve" min="1" max="10"></label>
+            <label class="top"> Storm Region
+                <select name="subject">                        
+                    <option value="">Select Region</option>
+                    <option value="Preston">Preston</option>
+                    <option value="Soda Springs">Soda Springs</option>
+                    <option value="Fish Haven">Fish Haven</option>
+                </select>
+            </label>
+            <div>In-danger Level</div>
+            <label class="sbs"> <input type="radio" name="dangerlevel" value="yes"> Yes</label>
+            <label class="sbs"> <input type="radio" name="dangerlevel" value="maybe"> Maybe</label>
+            <label class="sbs"> <input type="radio" name="dangerlevel" value="no"> No</label>
+            <label class="top"> Additional Information <textarea rows="4" cols="40"> </textarea></label>
+            <input type="submit" value="Send Info" class="but">
+        </form>
+    </main>
+        
+    <section class="finalsec">
+    </section>
+    
+    <footer id=foo></footer>
+
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/randomiser.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body></html>
