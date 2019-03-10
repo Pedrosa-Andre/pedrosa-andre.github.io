@@ -24,7 +24,7 @@ function showCities(jsonObj) {
             var myImg = document.createElement('img');
             var citName = cities[i].name;
             //search for the correct picture based on the city's name
-            myImg.src = 'images/cities/' + citName + '.jpg';
+            myImg.src = 'images/Cities/' + citName + '.jpg';
             //add a custom alt text
             myImg.alt = 'picture of ' + citName;
         
