@@ -10,6 +10,19 @@
         align-items: stretch;
     }
 
+    main.home-page {
+        margin: auto 2em;
+    }
+
+    main.home-page section {
+        flex-direction: column;
+    }
+
+    main.home-page section article {
+        max-width: 400px;
+        min-height: 450px;
+    }
+
     nav ul.hide {
         display: flex;
     }

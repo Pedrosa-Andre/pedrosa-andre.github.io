@@ -22,6 +22,14 @@
 		display: none;
 	}
 
+	main.home-page section {
+        flex-direction: column;
+    }
+
+	main.home-page section article {
+        min-height: 400px;
+    }
+
 	div.gallery {
         grid-template-columns: 1fr;
     }
