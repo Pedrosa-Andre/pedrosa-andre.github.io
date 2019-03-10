@@ -22,9 +22,10 @@ function showCities(jsonObj) {
             var myPara2 = document.createElement('p');
             var myPara3 = document.createElement('p');
             var myImg = document.createElement('img');
+            var citNameNoS = cities[i].name.string.replace(/\s/g, "");
             var citName = cities[i].name;
             //search for the correct picture based on the city's name
-            myImg.src = 'images/cities/' + citName.replace(/\s/g,'').toLowerCase() + '.jpg';
+            myImg.src = 'images/cities/' + citNameNoS.toLowerCase() + '.jpg';
             //add a custom alt text
             myImg.alt = 'picture of ' + citName;
         
