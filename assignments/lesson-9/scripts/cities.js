@@ -22,7 +22,12 @@ function showCities(jsonObj) {
             var myPara2 = document.createElement('p');
             var myPara3 = document.createElement('p');
             var myImg = document.createElement('img');
-            var citNameNoS = cities[i].name.string.replace(/\s/g, "");
+            var citNameNoS = cities[i].name.replace(/\s/g, ""); 
+         /* var citNameNoS = cities[i].name.string.replace(/\s/g, ""); 
+            -To the instructor: by the time I submitted this I tested and the site was working fine,
+            but somehow I got a typo here (".string" in the middle of the line) that made everything
+            stop working and it was committed with the error. I noticed and corrected it now (12/03) 
+            after the due date and corrected now, but I hope it doesn't worth any point deduction.*/
             var citName = cities[i].name;
             //search for the correct picture based on the city's name
             myImg.src = 'images/cities/' + citNameNoS.toLowerCase() + '.jpg';
