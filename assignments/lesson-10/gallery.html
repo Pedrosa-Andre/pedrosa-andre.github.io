@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Gallery of images">
+    <title>Weather for Trips | Galery</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small-10.css">    
+    <link rel="stylesheet" href="styles/medium-10.css">
+    <link rel="stylesheet" href="styles/large-10.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="sitetitle">
+            <img src="images/wtlogo.png" alt="WT logo" class="logoimg">
+                <div class="ht">
+                    <h1 id="pagename">Wheater for Trips</h1>
+                    <div class="motto">
+                        motto or catch phrase
+                    </div>
+                </div>
+        </div>
+    
+        <nav>
+            <button onclick="toggleMenu()"> &#9776; </button>
+            <div>
+                <ul class="hide" id="hamb">
+                    <li><a href="index.html" class="lihome">Home</a></li>
+                    <li><a href="preston-10.html" class="lipreston">Preston</a></li>
+                    <li><a href="soda-springs.html" class="lisoda">Soda Springs</a></li>
+                    <li><a href="fish-haven.html" class="lifish">Fish Haven</a></li>
+                    <li><a href="stormcenter.html" class="listorm">Storm Center</a></li>
+                    <li><a href="gallery.html" class="ligallery current">Gallery</a></li>
+                </ul>
+            </div>    	
+        </nav>
+    </header>
+    
+    <main class="main-gallery">
+        <h1 id="gallery-h">Weather Gallery</h1>
+        <div class="gallery">
+            <figure>
+                <img srcset="images/sunny-snow-small.jpg 700w,
+                             images/sunny-snow-medium.jpg 800w"
+                     src=   "images/sunny-snow-medium.jpg" alt="Rainy forest">
+                <figcaption>Cold and clear weather at Boston Woods</figcaption>
+            </figure>
+            <figure>
+                <img srcset="images/sunny-beach-small.jpg 700w,
+                             images/sunny-beach-medium.jpg 800w"
+                     src=   "images/sunny-beach-medium.jpg" alt="Rainy forest">
+                <figcaption>Scorcher day in Miamy Beach</figcaption>
+            </figure>
+            <figure>
+                <img srcset="images/snowy-forest-small.jpg 700w,
+                             images/snowy-forest-medium.jpg 800w"
+                     src=   "images/snowy-forest-medium.jpg" alt="Rainy forest">
+                <figcaption>Snowy day at Southern Mountains</figcaption>
+            </figure>
+            <figure>
+                <img srcset="images/sunny-park-small.jpg 700w,
+                             images/sunny-park-medium.jpg 800w"
+                     src=   "images/sunny-park-medium.jpg" alt="Rainy forest">
+                <figcaption>Clear climate at Central Park</figcaption>
+            </figure>
+            <figure>
+                <img srcset="images/rainy-forest-small.jpg 700w,
+                             images/rainy-forest-medium.jpg 800w"
+                     src=   "images/rainy-forest-medium.jpg" alt="Rainy forest">
+                <figcaption>Chance of storm in Balbonear Forest</figcaption>
+            </figure>
+            <figure>
+                <img srcset="images/foggy-lake-small.jpg 700w,
+                             images/foggy-lake-medium.jpg 800w"
+                     src=   "images/foggy-lake-medium.jpg" alt="Rainy forest">
+                <figcaption>Foggy weather at Erie Lake</figcaption>
+            </figure>
+                     
+        </div>
+    </main>
+    
+    <section class="finalsec">
+    </section>
+    
+    <footer id=foo></footer>
+
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/randomiser.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body></html>
