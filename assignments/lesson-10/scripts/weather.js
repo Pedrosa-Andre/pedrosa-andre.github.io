@@ -1,5 +1,6 @@
 
-var requestURL = 'hhttp://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=2860384eba6f003db94da4484cbcf9fd&units=imperial';
+//var requestURL = 'http://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=2860384eba6f003db94da4484cbcf9fd&units=imperial';
+var requestURL = 'https://pedrosa-andre.github.io/assignments/lesson-10/scripts/prestonW1.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL, true);
 //request.responseType = 'json'; 
