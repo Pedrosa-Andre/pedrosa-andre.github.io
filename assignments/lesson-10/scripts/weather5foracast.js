@@ -1,6 +1,6 @@
 
 //var requestURL2 = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=2860384eba6f003db94da4484cbcf9fd&units=imperial";
-var requestURL2 = "https://pedrosa-andre.github.io/assignments/lesson-10/scripts/cities.json";
+var requestURL2 = "https://pedrosa-andre.github.io/assignments/lesson-10/scripts/preston-w5.json";
 var request2 = new XMLHttpRequest();
 request2.open('GET', requestURL2, true);
 request2.responseType = 'json';
