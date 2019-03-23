@@ -6,7 +6,7 @@ request2.open('GET', requestURL2, true);
 request2.responseType = 'json';
 request2.send();
 
-var weekdayShort = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat","Sun","Mon","Tue","Wed","Thu","Fri","Sat"]
+var weekdayShort = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat","Sun","Mon","Tue","Wed","Thu"]
 
 request2.onload = function() {
     var fiveDayInfo = request2.response;
