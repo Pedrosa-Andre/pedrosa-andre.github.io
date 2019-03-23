@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Weather site for people planning trips">
+    <title>Weather for Trips</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">    
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="sitetitle">
+            <img src="images/wtlogo.png" alt="WT logo" class="logoimg">
+                <div class="ht">
+                    <h1 id="pagename">Wheater for Trips</h1>
+                    <div class="motto">
+                        motto or catch phrase
+                    </div>
+                </div>
+        </div>
+    
+        <nav>
+            <button onclick="toggleMenu()"> &#9776; </button>
+            <div>
+                <ul class="hide" id="hamb">
+                    <li><a href="index.html" class="lihome">Home</a></li>
+                    <li><a href="preston.html" class="lipreston current">Preston</a></li>
+                    <li><a href="soda-springs.html" class="lisoda">Soda Springs</a></li>
+                    <li><a href="fish-haven.html" class="lifish">Fish Haven</a></li>
+                    <li><a href="stormcenter.html" class="listorm">Storm Center</a></li>
+                    <li><a href="gallery.html" class="ligallery">Gallery</a></li>
+                </ul>
+            </div>    	
+        </nav>
+    </header>
+    
+    <main class="main-preston">
+        <h1>Town Name</h1>
+        <div class="hero-image">
+            <div class="hero-div">
+                <img srcset="images/landscape-small.jpg 320w,
+                            images/landscape-medium.jpg 480w,
+                            images/landscape-big.jpg 800w"
+                     sizes="(max-width: 320px) 280px,
+                            (max-width: 480px) 440px,
+                            800px"
+                     src="images/landscape-big.jpg" alt="nature landscape">
+                <section class="stats">
+                    <h3>Weather Summary</h3>
+                    <p>Currently: <strong id="currently" class="info"></strong> </p>
+                    <p>Temperature: <strong id="temperature" class="info" vall=''></strong> <strong>&#176F</strong></p>
+                    <p>Humidity: <strong id="humidity" class="info"></strong><strong>%</strong></p>
+                    <p>Precipitation: <strong id="precipitation" class="info"></strong></p>
+                    <p>Wind speed: <strong id="wspeed" class="info" vall=''></strong></p>
+                    <!-- <p>Wind chill factor: <strong id="output" class="info"></strong> </p> -->
+                </section>
+                <!-- Example to study later https://www.w3schools.com/howto/howto_css_hero_image.asp -->
+            </div>
+        </div>
+        <div id="fore">
+            <div id="forecast">
+                <h1>Temperature forecast</h1>
+                <div id="forecast-table">
+                    <p class='table-border' >Day</p>
+                    <p class='table-border' id='day1'>.</p>
+                    <p class='table-border' id='day2'>.</p>
+                    <p class='table-border' id='day3'>.</p>
+                    <p class='table-border' id='day4'>.</p>
+                    <p class='table-border' id='day5'>.</p>
+                    <p class='table-border' >Forecast</p>
+                    <p id='tem1'>.</p>
+                    <p id='tem2'>.</p>
+                    <p id='tem3'>.</p>
+                    <p id='tem4'>.</p>
+                    <p id='tem5'>.</p>
+                </div>
+            </div>
+        </div>
+        <article>
+            <h2>Article Title</h2>
+            <h4>by Author</h4>
+            <p>nonononononon nonononon onononononon ononon onon onon ononon ono n onono non ononon onon ono n ono ononono ononon oonon on on ononon onono nononon ononon onon on on on on ononononon onononon ononon onononono nonononono</p>
+            <img src="images/clouds-conifer-daylight-371589.jpg" alt="test-image">
+        </article>
+    </main>
+    
+    <section class="finalsec">
+        <h2>Contact Information</h2>
+        <p>nononn nonon ononononon onononon onon</p>
+        <div class="map"></div>
+    </section>
+    
+    <footer id=foo></footer>
+
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/weather5foracast.js"></script>
+    <script src="scripts/weather.js"></script>
+    <!-- <script src="scripts/randomiser.js"></script> -->
+    <!-- <script src="scripts/windchill.js"></script> -->
+</body></html>

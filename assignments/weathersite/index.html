@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Weather site for people planning trips">
+    <title>Weather for Trips</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">    
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="sitetitle">
+            <img src="images/wtlogo.png" alt="WT logo" class="logoimg">
+                <div class="ht">
+                    <h1 id="pagename">Wheater for Trips</h1>
+                    <div class="motto">
+                        motto or catch phrase
+                    </div>
+                </div>
+        </div>
+    
+        <nav>
+            <button onclick="toggleMenu()"> &#9776; </button>
+            <div>
+                <ul class="hide" id="hamb">
+                    <li><a href="index.html" class="lihome current">Home</a></li>
+                    <li><a href="preston.html" class="lipreston">Preston</a></li>
+                    <li><a href="soda-springs.html" class="lisoda">Soda Springs</a></li>
+                    <li><a href="fish-haven.html" class="lifish">Fish Haven</a></li>
+                    <li><a href="stormcenter.html" class="listorm">Storm Center</a></li>
+                    <li><a href="gallery.html" class="ligallery">Gallery</a></li>
+                </ul>
+            </div>    	
+        </nav>
+    </header>
+    
+    <main class="home-page">
+        <section></section>
+    </main>
+       
+    <footer id=foo></footer>
+
+    <script>
+        var section = document.querySelector('section');
+    </script>
+    <script src="scripts/cities.js"></script>
+
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+</body></html>
