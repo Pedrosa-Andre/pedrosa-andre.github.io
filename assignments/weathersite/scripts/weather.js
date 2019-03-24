@@ -1,9 +1,15 @@
+// weather
+var cityId = document.getElementById('cityId').getAttribute('val'); //Now the city ID will be stored on each html page
+var openWeatherMapId = '2860384eba6f003db94da4484cbcf9fd'; // place your OpenWeatherMap id between the single quotes
 
-//var requestURL = 'http://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=2860384eba6f003db94da4484cbcf9fd&units=imperial';
-var requestURL = 'https://pedrosa-andre.github.io/assignments/lesson-10/scripts/preston-w1.json';
+//var requestURL = 'https://pedrosa-andre.github.io/assignments/lesson-10/scripts/preston-w1.json'; //for testing
+var requestURL = 'https://api.openweathermap.org/data/2.5/weather' +
+    '?id=' + cityId + 
+    '&appid=' + openWeatherMapId +
+    '&units=imperial';
+
 var request = new XMLHttpRequest();
 request.open('GET', requestURL, true);
-//request.responseType = 'json'; 
 request.send();
 
 request.onload = function() {

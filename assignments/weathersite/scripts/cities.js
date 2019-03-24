@@ -14,7 +14,9 @@ function showCities(jsonObj) {
     for (var i = 0; i < cities.length; i++) {
         //chech if the name of the city is one of the bellow
         if (['Preston','Soda Springs','Fish Haven'].indexOf(cities[i].name) >=0){ 
-            var myArticle = document.createElement('article');
+            var myA = document.createElement('a');
+            //uses city name to create a link to its html page
+            myA.href = cities[i].name.replace(/\s/g, "-").toLowerCase() + '.html';
             var myH2 = document.createElement('h2');
             var myMotto = document.createElement('p');
             myMotto.className = "italic"; //css purpose only
@@ -22,13 +24,10 @@ function showCities(jsonObj) {
             var myPara2 = document.createElement('p');
             var myPara3 = document.createElement('p');
             var myImg = document.createElement('img');
-            //get the cities name and remove the spaces
-            var citNameNoS = cities[i].name.replace(/\s/g, "");
-            var citName = cities[i].name;
             //search for the correct picture based on the city's name
-            myImg.src = 'images/cities/' + citNameNoS.toLowerCase() + '.jpg';
+            myImg.src = 'images/cities/' + cities[i].name.replace(/\s/g, "-").toLowerCase() + '.jpg';
             //add a custom alt text
-            myImg.alt = 'picture of ' + citName;
+            myImg.alt = 'Picture of ' + cities[i].name;
         
             myH2.textContent = cities[i].name;
             myMotto.textContent = cities[i].motto;
@@ -36,14 +35,14 @@ function showCities(jsonObj) {
             myPara2.textContent = 'Population: ' + cities[i].currentPopulation;
             myPara3.textContent = 'Annual Rain Fall: ' + cities[i].averageRainfall +'"';
                 
-            myArticle.appendChild(myH2);
-            myArticle.appendChild(myMotto);
-            myArticle.appendChild(myPara1);
-            myArticle.appendChild(myPara2);
-            myArticle.appendChild(myPara3);
-            myArticle.appendChild(myImg);
+            myA.appendChild(myH2);
+            myA.appendChild(myMotto);
+            myA.appendChild(myPara1);
+            myA.appendChild(myPara2);
+            myA.appendChild(myPara3);
+            myA.appendChild(myImg);
         
-            section.appendChild(myArticle);
+            section.appendChild(myA);
         }
     }
 }
