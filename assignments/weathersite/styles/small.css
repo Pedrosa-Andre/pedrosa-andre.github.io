@@ -1,7 +1,7 @@
 @media screen and (max-width: 500px) {
 
 	nav ul li a {
-		border-bottom: 1px solid #000000;
+		border-bottom: 1px solid #1b412d;
 	}
 
 	nav button {
@@ -9,8 +9,8 @@
 		width: 100%;
 		padding: 0.2em;
 		border: none;
-		border-top: #000000 solid 1px;
-		border-bottom: #000000 solid 1px;
+		border-top: #1b412d solid 1px;
+		border-bottom: #1b412d solid 1px;
 	}
 
 	#hamb {
@@ -26,7 +26,7 @@
         flex-direction: column;
     }
 
-	main.home-page section article {
+	main.home-page section a {
         min-height: 400px;
     }
 

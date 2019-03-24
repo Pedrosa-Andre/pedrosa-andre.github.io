@@ -5,9 +5,9 @@
     }
     
     #hamb {
-        display: flex;
-        justify-content: space-between;
-        align-items: stretch;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        white-space: nowrap;
     }
 
     main.home-page {
@@ -18,7 +18,7 @@
         flex-direction: column;
     }
 
-    main.home-page section article {
+    main.home-page section a {
         max-width: 400px;
         min-height: 450px;
     }
@@ -35,7 +35,8 @@
     nav ul li a {
         font-size: 3vw;
         height: inherit;
-        border: 1px solid #000000;
+        border: solid #1b412d;
+        border-width: 1px 1px 1px 0px;
     }
 
     div.gallery {
