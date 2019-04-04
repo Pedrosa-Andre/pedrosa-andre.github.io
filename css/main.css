@@ -4,6 +4,12 @@
 /* * is a wildcard referring to all elements. */
 * { margin: 0; box-sizing: border-box;} 
 
+@media screen and (max-width:500px){
+    body {
+        margin: -15%;
+    }
+}
+
 body { 
     font-size: 16px; 
     line-height: 32px;
