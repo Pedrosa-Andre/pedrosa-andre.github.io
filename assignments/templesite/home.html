@@ -14,9 +14,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script">
 </head>
 <body>
+    <div class="wrapper">
     <header>
 
-        <nav>
+        <nav id="navhamb">
             <button onclick="toggleMenu()"> &#9776; </button>
             <div class="memnubar">
                 <ul class="hide" id="hamb">
@@ -44,17 +45,27 @@
     </header>
 
     <main>
-        <article>
+        <article class="home">
             <img srcset="images/san-diego-temple-small.jpg 500w,
                          images/san-diego-temple.jpg 800w"
-                src="images/san-diego-temple-small.jpg" alt="san diego california temple">
-            <button id="reserv-bttn"></button>
-            <p id="imgbox"></p>
+                src="images/san-diego-temple-small.jpg" 
+                alt="san diego california temple"
+                id="homeimg">
+            <button id="reserv-bttn">Reserve Here</button>
+            <nav>
+                <span class="big" onclick="changeTo('pic1')" id="span1"></span>
+                <span class="" onclick="changeTo('pic2')" id="span2"></span>
+                <span class="" onclick="changeTo('pic3')" id="span3"></span>
+                <span class="" onclick="changeTo('pic4')" id="span4"></span>
+            </nav>
+            <p id="imgbox">The San Diego Callifornia Temple has a wonderful and modern desing. Its shapes,
+                 ressembling white cristals, remembers us of the the importance of pureness.</p>
         </article>
     </main>
-
+    </div>
     <footer><div id="foodate"></div><div><a href="resources.html">Resources</a></div></footer>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/currentdate.js"></script>
+    <script src="scripts/navchange.js"></script>
 </body>
 </html>
