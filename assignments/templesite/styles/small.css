@@ -1,0 +1,142 @@
+@media screen and (max-width: 499px) {
+
+
+    * {
+        font-family: "tex_gyre_pagellaregular";
+    }
+    
+    body {
+        background-color: #fdfbfb;
+    }
+    
+    nav button {
+        /*********************/
+        background-color: #ebc591;
+		width: 100%;
+		padding: 0.2em;
+		border: none;
+		border-top: #f4af35 solid 1px;
+        border-bottom: #f4af35 solid 1px;
+        font-size: 1.7em;
+        color: #005ca3;
+    }
+    
+    .current {
+        background-color: #d6b484; 
+    }
+    
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-size: 1.2em;
+    }
+    
+    nav ul li {
+        text-align: center;
+    }
+    
+    #hamb  {
+        width: 100%;
+        position: fixed;
+        height: stretch;
+        display: flex;
+        flex-direction: column;
+        white-space: nowrap;
+        padding: 0px;
+    }
+
+    #hamb.hide {
+		display: none;
+	}
+    
+    a, .alink{
+        text-decoration: none;
+        color: #005ca3;
+    }
+    
+    nav a, .alink {
+        background-color: #ebc591;
+        display: block;
+        padding: 0.5em;
+        align-items: center;
+        border-style: solid; 
+        border-color: #f4af35;
+        border-width: 0px 0px 1px 0px;
+    }
+    
+    a:hover, .alink:hover {
+        text-decoration: none;
+        background-color: #95cefb;
+        /* background-color: #f4af35; */
+    }
+    
+    #hamb2 {
+        display: flex;
+        flex-direction: column;
+        align-self: auto;
+        font-size: inherit;
+    }
+    
+    #hamb2 a {
+        border-width: 0px 0px 1px 0px;
+        padding-left: 5em;
+    }
+    
+    #hamb2.hide{
+        display: none;
+    }
+    
+    .sitetitle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 1em;
+    }
+    
+    .sitetitle img {
+        width: 6em;
+        margin: auto;
+        z-index: -2;
+    }
+    
+    #pagename {
+        font-size: 40px;
+        position: absolute;
+        z-index: -1;
+    }
+    
+    main {
+        margin: auto 5%;
+    }
+    
+    h1, h2, h3 {
+        font-family: 'Dancing Script', cursive;
+        color: #005ca3;
+    }
+    
+    h1 { 
+        font-size: 40px; 
+    }
+    
+    h2 { 
+        font-size: 30px;
+    }
+    
+    h3 { 
+        font-size: 24px;
+    }
+    
+    footer {
+        display: flex;
+        align-content: space-around;
+        background-color: #ebc591;
+        padding: 1em;
+        justify-content: center;
+    }
+    
+    footer div {
+        margin: 0em 0.5em;
+    }
+    
+}
