@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Temple Inn &amp; Suites home page | Find reservations here!"><!-- change@@@@@@@  -->
-    <title>Home | Temple Inn &amp; Suites</title><!-- change@@@@@@@  -->
+    <meta name="description" content="Temple Inn &amp; Suites home page | St. George Utah Temple Informations">
+    <title>St. George Utah | Temple Inn &amp; Suites</title>
     <link rel="stylesheet" href="../styles/large.css">
     <link rel="stylesheet" href="../styles/medium.css">
     <link rel="stylesheet" href="../styles/small.css">
@@ -24,10 +24,10 @@
                     <li><a href="../home.html" class="lihome">Home</a></li>
                     <li><div onclick="toggleMenu2()" class="alink current">Temples</div>
                         <ul class="hide" id="hamb2">
-                            <li><a href="temple-a.html" class="litemplea">Temple A</a></li>
-                            <li><a href="temple-b.html" class="litemplea">Temple B</a></li>
-                            <li><a href="temple-c.html" class="litemplea current">Temple C</a></li>
-                            <li><a href="temple-d.html" class="litemplea">Temple D</a></li>
+                            <li><a href="temple-a.html" class="litemplea">San Diego CA</a></li>
+                            <li><a href="temple-b.html" class="litemplea">Salt Lake UT</a></li>
+                            <li><a href="temple-c.html" class="litemplea current">St. George UT</a></li>
+                            <li><a href="temple-d.html" class="litemplea">Idaho Falls ID</a></li>
                         </ul>
                     </li>
                     <li><a href="../reservation.html" class="lireservation">Reservation</a></li>
@@ -45,9 +45,23 @@
     </header>
 
     <main>
+        <article class="home">
+            <img srcset="../images/st-george-temple-small.jpg 500w,
+                            ../images/st-george-temple.jpg 800w"
+                src="../images/st-george-temple-small.jpg" 
+                alt="san diego california temple"
+                id="homeimg">
+        </article>
+        <section></section>
     </main>
     </div>
     <footer><div id="foodate"></div><div><a href="../resources.html">Resources</a></div></footer>
+
+    <div id="templePageName" val="St. George Utah Temple"></div>
+    <script>
+            var section = document.querySelector('section');
+    </script>
+    <script src="../scripts/gettemple.js"></script>
     <script src="../scripts/hamburger.js"></script>
     <script src="../scripts/currentdate.js"></script>
 </body>
