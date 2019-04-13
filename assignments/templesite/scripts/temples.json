@@ -1,0 +1,480 @@
+{
+    "temples" : [
+        {
+            "name": "San Diego California Temple",
+            "address": [
+                "7474 Charmant Dr",
+                "San Diego CA 92122-5000",
+                "United States"
+            ],
+            "tel": "(1) 858-622-0991",
+            "services" : [
+                "Clothing rental available",
+                "Cafeteria available",
+                "No patron housing available",
+                "Distribution center nearby"
+            ],
+            "history": "The San Diego California Temple is the 47th constructed and 45th operating temple of The Church of Jesus Christ of Latter-day Saints. Located near the La Jolla community of San Diego, it was built with two main spires, but unique to this temple are four smaller spires at the base of each main spire. The East spire is topped with the familiar Angel Moroni statue which adorns most temples. The San Diego Temple was announced on April 7, 1984, and dedicated on April 25, 1993 by Gordon B. Hinckley. The temple was built on a 7.2-acre (2.9 ha) plot, has 4 ordinance rooms and 8 sealing rooms, and has a total floor area of 72,000 square feet (6,700 m2). Although there is no visitors' center, the church maintains the Mormon Battalion Historic Site in Old Town, San Diego.",
+            "schedule": {
+                "bapstism" : {
+                    "tue" : [
+                        "8:00 AM - 5:00 PM Walk-ins and Appointments",
+                        "5:00 PM - 8:00 PM Church Groups - Appointments Only"
+                    ],
+                    "wed" : [
+                        "8:00 AM - 5:00 PM Walk-ins and Appointments",
+                        "5:00 PM - 8:00 PM Church Groups - Appointments Only"
+                    ],
+                    "thu" : [
+                        "8:00 AM - 5:00 PM Walk-ins and Appointments",
+                        "5:00 PM - 8:00 PM Church Groups - Appointments Only"
+                    ],
+                    "fri" : [
+                        "8:00 AM - 5:00 PM Walk-ins and Appointments",
+                        "5:00 PM - 8:00 PM Church Groups - Appointments Only"
+                    ],
+                    "sat": [
+                        "7:00 AM - 3:00 PM Appointments Only",
+                        "3:00 PM - 7:30 PM Family Priority Time - Walk-ins and Appointments"
+                    ]
+                },
+                "initiatory" : {
+                    "tue" : [
+                        "8:00 AM - 8:30 PM Walk-ins and Appointments"
+                    ],
+                    "wed" : [
+                        "8:00 AM - 8:30 PM Walk-ins and Appointments"
+                    ],
+                    "thu" : [
+                        "8:00 AM - 8:30 PM Walk-ins and Appointments"
+                    ],
+                    "fry" : [
+                        "8:00 AM - 8:30 PM Walk-ins and Appointments"
+                    ],
+                    "sat": [
+                        "8:00 AM - 8:00 PM Walk-ins and Appointments"
+                    ]
+                },
+                "endowment" : {
+                    "tue" : [
+                        "5:30 AM Walk-ins Only",
+                        "8:00 AM Walk-ins and Appointments",
+                        "9:00 AM Walk-ins and Appointments",
+                        "9:30 AM Walk-ins and Appointments"
+                    ],
+                    "wed" : [
+                        "8:00 AM Walk-ins and Appointments",
+                        "9:00 AM Walk-ins and Appointments",
+                        "9:30 AM Walk-ins and Appointments",
+                        "10:00 AM Walk-ins and Appointments"
+                    ],
+                    "thu" : [
+                        "8:00 AM Walk-ins and Appointments",
+                        "9:00 AM Walk-ins and Appointments",
+                        "9:30 AM Walk-ins and Appointments",
+                        "10:00 AM Walk-ins and Appointments"
+                    ],
+                    "fry" : [
+                        "8:00 AM Walk-ins and Appointments",
+                        "9:00 AM Walk-ins and Appointments",
+                        "9:30 AM Walk-ins and Appointments",
+                        "10:00 AM Walk-ins and Appointments"
+                    ],
+                    "sat": [
+                        "7:30 AM Walk-ins Only",
+                        "8:00 AM Walk-ins and Appointments",
+                        "8:30 AM Walk-ins and Appointments",
+                        "9:00 AM Walk-ins and Appointments - Spanish"
+                    ]
+                },
+                "sealing" : {
+                    "tue" : [
+                        "8:00 AM - 8:30 PM Walk-ins and Appointments"
+                    ],
+                    "wed" : [
+                        "8:00 AM - 8:30 PM Walk-ins and Appointments"
+                    ],
+                    "thu" : [
+                        "8:00 AM - 8:30 PM Walk-ins and Appointments"
+                    ],
+                    "fry" : [
+                        "8:00 AM - 9:00 PM Walk-ins and Appointments"
+                    ],
+                    "sat": [
+                        "7:30 AM - 8:00 PM Walk-ins and Appointments"
+                    ]
+                }
+            },
+            "closure": [
+                "Thursday, 4 July 2019",
+                "Monday, 30 September 2019 - Monday, 11 November 2019",
+                "Wednesday, 27 November 2019 - Thursday, 28 November 2019",
+                "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
+                "Tuesday, 31 December 2019"
+            ]        
+        },
+        {
+            "name": "Salt Lake Temple",
+            "address": [
+                "50 W North Temple St",
+                "Salt Lake City UT 84150-9709",
+                "United States"
+            ],
+            "tel": "(1) 801-240-2640",
+            "services" : [
+                "Clothing rental available",
+                "Cafeteria available",
+                "No patron housing available",
+                "Distribution center nearby"
+            ],
+            "history": "The Salt Lake Temple is a temple of The Church of Jesus Christ of Latter-day Saints located on Temple Square in Salt Lake City, Utah, United States. At 253,015 square feet (23,505.9 m2), it is the largest temple by floor area. Dedicated in 1893, it is the sixth temple completed by the church, requiring 40 years to complete, and the fourth temple built since the Mormon exodus from Nauvoo, Illinois, in 1846.",
+            "schedule": {
+                "bapstism" : {
+                    "tue" : [
+                        "5:00 AM - 7:00 AM Walk-ins Only",
+                        "7:00 AM - 8:00 PM Walk-ins and Appointments"
+                    ],
+                    "wed" : [
+                        "5:00 AM - 5:00 PM Walk-ins and Appointments",
+                        "6:00 PM - 7:00 PM Walk-ins and Appointments"
+                    ],
+                    "thu" : [
+                        "5:00 AM - 8:00 PM Walk-ins and Appointments"
+                    ],
+                    "fri" : [
+                        "5:00 AM - 6:00 PM Walk-ins and Appointments",
+                        "6:00 PM - 8:00 PM Family Priority Time - Walk-ins and Appointments"
+                    ],
+                    "sat": [
+                        "6:00 AM - 7:00 AM Walk-ins and Appointments",
+                        "7:30 AM - 8:30 AM Walk-ins and Appointments",
+                        "9:00 AM - 10:00 AM Walk-ins and Appointments",
+                        "10:30 AM - 11:30 AM Walk-ins and Appointments"
+                    ]
+                },
+                "initiatory" : {
+                    "tue" : [
+                        "6:00 AM - 8:00 PM Walk-ins Only"
+                    ],
+                    "wed" : [
+                        "6:00 AM - 8:00 PM Walk-ins Only"
+                    ],
+                    "thu" : [
+                        "6:00 AM - 8:00 PM Walk-ins Only"
+                    ],
+                    "fry" : [
+                        "6:00 AM - 8:00 PM Walk-ins Only"
+                    ],
+                    "sat": [
+                        "6:00 AM - 8:00 PM Walk-ins Only"
+                    ]
+                },
+                "endowment" : {
+                    "tue" : [
+                        "6:00 AM Walk-ins Only",
+                        "7:00 AM Walk-ins Only",
+                        "8:00 AM Walk-ins Only",
+                        "9:00 AM Walk-ins and Appointments"
+                    ],
+                    "wed" : [
+                        "6:00 AM Walk-ins Only",
+                        "7:00 AM Walk-ins Only",
+                        "8:00 AM Walk-ins Only",
+                        "9:00 AM Walk-ins and Appointments"
+                    ],
+                    "thu" : [
+                        "6:00 AM Walk-ins Only",
+                        "7:00 AM Walk-ins Only",
+                        "8:00 AM Walk-ins Only",
+                        "9:00 AM Walk-ins and Appointments"
+                    ],
+                    "fry" : [
+                        "6:00 AM Walk-ins Only",
+                        "7:00 AM Walk-ins Only",
+                        "8:00 AM Walk-ins Only",
+                        "9:00 AM Walk-ins and Appointments"
+                    ],
+                    "sat": [
+                        "6:00 AM Walk-ins Only",
+                        "7:00 AM Walk-ins Only",
+                        "8:00 AM Walk-ins Only",
+                        "9:00 AM Walk-ins and Appointments"
+                    ]
+                },
+                "sealing" : {
+                    "tue" : [
+                        "8:00 AM - 8:30 PM Walk-ins and Appointments"
+                    ],
+                    "wed" : [
+                        "8:00 AM - 8:30 PM Walk-ins and Appointments"
+                    ],
+                    "thu" : [
+                        "8:00 AM - 8:30 PM Walk-ins and Appointments"
+                    ],
+                    "fry" : [
+                        "8:00 AM - 9:00 PM Walk-ins and Appointments"
+                    ],
+                    "sat": [
+                        "7:30 AM - 8:00 PM Walk-ins and Appointments"
+                    ]
+                }
+            },
+            "closure": [
+                "Tuesday, 2 July 2019 - Monday, 15 July 2019",
+                "Wednesday, 24 July 2019",
+                "Saturday, 5 October 2019",
+                "Wednesday, 27 November 2019 (Limited Hours)",
+                "Thursday, 28 November 2019 - Friday, 29 November 2019",
+                "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
+                "Tuesday, 31 December 2019"
+            ]        
+        },
+        {
+            "name": "St. George Utah Temple",
+            "address": [
+                "250 E 400 S",
+                "St George UT 84770-3699",
+                "United States"
+            ],
+            "tel": "(1) 435-673-3533",
+            "services" : [
+                "Clothing rental available",
+                "Cafeteria available",
+                "Patron housing available",
+                "Distribution center nearby"
+            ],
+            "history": "The St. George Utah Temple (formerly the St. George Temple) is a temple of The Church of Jesus Christ of Latter-day Saints in St. George, Utah. Completed in 1877, it was the church's third temple completed, but the first in Utah, following the migration west of members from Nauvoo, Illinois. The St. George Temple is the oldest temple still actively used.",
+            "schedule": {
+                "bapstism" : {
+                    "mon" : [
+                        "6:00 AM - 11:30 AM Walk-ins Only"
+                    ],
+                    "tue" : [
+                        "6:00 AM - 7:30 PM Walk-ins Only",
+                        "8:00 PM - 9:00 PM Church Groups - Appointments Only"
+                    ],
+                    "wed" : [
+                        "6:00 AM - 9:00 PM Walk-ins Only"
+                    ],
+                    "thu" : [
+                        "6:00 AM - 7:30 PM Walk-ins Only",
+                        "8:00 PM - 9:00 PM Church Groups - Appointments Only"
+                    ],
+                    "fri" : [
+                        "6:00 AM - 9:00 PM Walk-ins Only"
+                    ],
+                    "sat": [
+                        "6:00 AM - 5:30 PM Walk-ins Only",
+                        "6:00 PM - 8:00 PM Church Groups - Appointments Only"
+                    ]
+                },
+                "initiatory" : {
+                    "mon" : [
+                        "7:00 AM - 11:30 AM Walk-ins and Appointments"
+                    ],
+                    "tue" : [
+                        "7:00 AM - 8:15 PM Walk-ins and Appointments"
+                    ],
+                    "wed" : [
+                        "7:00 AM - 8:15 PM Walk-ins and Appointments"                        
+                    ],
+                    "thu" : [
+                        "7:00 AM - 8:15 PM Walk-ins and Appointments"
+                    ],
+                    "fry" : [
+                        "7:00 AM - 8:15 PM Walk-ins and Appointments"
+                    ],
+                    "sat": [
+                        "7:00 AM - 8:15 PM Walk-ins and Appointments"
+                    ]
+                },
+                "endowment" : {
+                    "mon" : [
+                        "7:20 AM Walk-ins and Appointments",
+                        "8:00 AM Walk-ins and Appointments",
+                        "8:40 AM Walk-ins and Appointments",
+                        "9:20 AM Walk-ins and Appointments"
+                    ],
+                    "tue" : [
+                        "7:20 AM Walk-ins and Appointments",
+                        "8:00 AM Walk-ins and Appointments",
+                        "8:40 AM Walk-ins and Appointments",
+                        "9:20 AM Walk-ins and Appointments"
+                    ],
+                    "wed" : [
+                        "5:30 AM Walk-ins and Appointments",
+                        "6:00 AM Walk-ins and Appointments",
+                        "6:40 AM Walk-ins and Appointments",
+                        "7:20 AM Walk-ins and Appointments"
+                    ],
+                    "thu" : [
+                        "7:20 AM Walk-ins and Appointments",
+                        "8:00 AM Walk-ins and Appointments",
+                        "8:40 AM Walk-ins and Appointments",
+                        "9:20 AM Walk-ins and Appointments"
+                    ],
+                    "fry" : [
+                        "7:20 AM Walk-ins and Appointments",
+                        "8:00 AM Walk-ins and Appointments",
+                        "8:40 AM Walk-ins and Appointments",
+                        "9:20 AM Walk-ins and Appointments"
+                    ],
+                    "sat": [
+                        "6:00 AM Walk-ins and Appointments",
+                        "6:40 AM Walk-ins and Appointments",
+                        "7:20 AM Walk-ins and Appointments - Samoan",
+                        "8:00 AMWalk-ins and Appointments"
+                    ]
+                },
+                "sealing" : {
+                    "mon" : [
+                        "7:20 AM - 12:00 PM Walk-ins and Appointments"
+                    ],
+                    "tue" : [
+                        "7:20 AM - 8:40 PM Walk-ins and Appointments"
+                    ],
+                    "wed" : [
+                        "7:20 AM - 8:40 PM Walk-ins and Appointments"
+                    ],
+                    "thu" : [
+                        "7:20 AM - 8:40 PM Walk-ins and Appointments"
+                    ],
+                    "fry" : [
+                        "7:20 AM - 8:40 PM Walk-ins and Appointments"
+                    ],
+                    "sat": [
+                        "7:20 AM - 8:40 PM Walk-ins and Appointments"
+                    ]
+                }
+            },
+            "closure": [
+                "Monday, 27 May 2019",
+                "Thursday, 4 July 2019",
+                "Wednesday, 24 July 2019",
+                "Monday, 2 September 2019",
+                "Monday, 9 September 2019 - Saturday, 21 September 2019",
+                "Saturday, 5 October 2019",
+                "Monday, 4 November 2019 - Friday, 4 November 2022"
+            ]        
+        },
+        {
+            "name": "Idaho Falls Idaho Temple",
+            "address": [
+                "1000 Memorial Dr",
+                "Idaho Falls ID 83402-3410",
+                "United States"
+            ],
+            "tel": "(1) 208-522-7669",
+            "services" : [
+                "Clothing rental available",
+                "Cafeteria available",
+                "No patron housing available",
+                "Distribution center nearby"
+            ],
+            "history": "The Idaho Falls Idaho Temple (formerly the Idaho Falls Temple) is the tenth constructed and eighth operating temple of The Church of Jesus Christ of Latter-day Saints. Located in the city of Idaho Falls, Idaho it was the first temple built in Idaho, and the first temple built with a modern single-spire design. The temple in Idaho Falls was announced on March 3, 1937. The building was designed by the church board of temple architects: Edward O. Anderson, Georgious Y. Cannon, Ramm Hansen, John Fetzer, Hyrum Pope, Lorenzo Snow Young. The exterior of the temple was completed in September 1941 and the interior was expected to be completed the following year. However, with World War II shortages, it delayed the completion of the temple for four more years. In spite of delays, Church president George Albert Smith dedicated the Idaho Falls Temple just one month after the war ended, on September 23, 1945. The temple was built on a 7-acre (2.8 ha) plot, has 4 ordinance rooms and 9 sealing rooms, and has a total floor area of 92,177 square feet (8,563.5 m2).",
+            "schedule": {
+                "bapstism" : {
+                    "tue" : [
+                        "6:00 AM - 8:30 PM Walk-ins and Appointments"
+                    ],
+                    "wed" : [
+                        "6:00 AM - 8:30 PM Walk-ins and Appointments"
+                    ],
+                    "thu" : [
+                        "6:00 AM - 8:30 PM Walk-ins and Appointments"
+                    ],
+                    "fri" : [
+                        "6:00 AM - 8:00 AM Family Priority Time - Walk-ins and Appointments",
+                        "8:00 AM - 4:00 PM Walk-ins and Appointments",
+                        "4:00 PM - 8:30 PM Family Priority Time - Walk-ins and Appointments"
+                    ],
+                    "sat": [
+                        "6:00 AM - 8:00 AM Walk-ins and Appointments",
+                        "8:00 AM - 9:00 AM Family Priority Time - Walk-ins and Appointments",
+                        "9:00 AM - 11:00 AM Walk-ins and Appointments",
+                        "11:00 AM - 1:00 PM Family Priority Time - Walk-ins and Appointments"
+                    ]
+                },
+                "initiatory" : {
+                    "tue" : [
+                        "5:30 AM - 7:30 PM Walk-ins Only"
+                    ],
+                    "wed" : [
+                        "6:30 AM - 8:30 PM Walk-ins Only"
+                    ],
+                    "thu" : [
+                        "6:30 AM - 8:30 PM Walk-ins Only"
+                    ],
+                    "fry" : [
+                        "6:30 AM - 8:30 PM Walk-ins Only"
+                    ],
+                    "sat": [
+                        "6:30 AM - 5:30 PM Walk-ins Only"
+                    ]
+                },
+                "endowment" : {
+                    "tue" : [
+                        "5:00 AM Walk-ins Only",
+                        "6:00 AM Walk-ins Only",
+                        "7:00 AM Walk-ins Only",
+                        "8:00 AMWalk-ins Only"
+                    ],
+                    "wed" : [
+                        "6:00 AM Walk-ins Only",
+                        "7:00 AM Walk-ins Only",
+                        "8:00 AM Walk-ins Only",
+                        "9:00 AM Walk-ins Only"
+                    ],
+                    "thu" : [
+                        "6:00 AM Walk-ins Only",
+                        "7:00 AM Walk-ins Only",
+                        "8:00 AM Walk-ins Only",
+                        "9:00 AM Walk-ins Only"
+                    ],
+                    "fry" : [
+                        "6:00 AM Walk-ins Only",
+                        "7:00 AM Walk-ins Only",
+                        "8:00 AM Walk-ins Only",
+                        "9:00 AM Walk-ins Only"
+                    ],
+                    "sat": [
+                        "6:00 AM Walk-ins Only",
+                        "7:00 AM Walk-ins Only",
+                        "8:00 AM Walk-ins Only",
+                        "9:00 AM Walk-ins Only"
+                    ]
+                },
+                "sealing" : {
+                    "tue" : [
+                        "6:00 AM - 7:55 AM Walk-ins and Appointments",
+                        "8:00 AM - 7:40 PM Walk-ins and Appointments"
+                    ],
+                    "wed" : [
+                        "6:00 AM - 7:55 AM Walk-ins and Appointments",
+                        "8:00 AM - 8:05 PM Walk-ins and Appointments"
+                    ],
+                    "thu" : [
+                        "6:00 AM - 7:55 AM Walk-ins and Appointments",
+                        "8:00 AM - 8:05 PM Walk-ins and Appointments"
+                    ],
+                    "fry" : [
+                        "6:00 AM - 7:55 AM Walk-ins and Appointments",
+                        "8:00 AM - 8:05 PM Walk-ins and Appointments"
+                    ],
+                    "sat": [
+                        "6:00 AM - 7:55 AM Walk-ins and Appointments",
+                        "8:00 AM - 6:05 PM Walk-ins and Appointments"
+                    ]
+                }
+            },
+            "closure": [
+                "Monday, 24 June 2019 - Monday, 8 July 2019",
+                "Saturday, 5 October 2019",
+                "Wednesday, 27 November 2019 (Limited Hours)",
+                "Thursday, 28 November 2019",
+                "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
+                "Tuesday, 31 December 2019"
+            ]        
+        }
+    ]
+}
