@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Temple Inn &amp; Suites home page | Find reservations here!"><!-- change@@@@@@@  -->
+    <title>Home | Temple Inn &amp; Suites</title><!-- change@@@@@@@  -->
+    <link rel="stylesheet" href="../styles/large.css">
+    <link rel="stylesheet" href="../styles/medium.css">
+    <link rel="stylesheet" href="../styles/small.css">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/stylesheet.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script">
+</head>
+<body>
+    <div class="wrapper">
+    <header>
+
+        <nav id="navhamb">
+            <button onclick="toggleMenu()"> &#9776; </button>
+            <div class="memnubar">
+                <ul class="hide" id="hamb">
+                    <li><a href="../home.html" class="lihome">Home</a></li>
+                    <li><div onclick="toggleMenu2()" class="alink current">Temples</div>
+                        <ul class="hide" id="hamb2">
+                            <li><a href="temple-a.html" class="litemplea">Temple A</a></li>
+                            <li><a href="temple-b.html" class="litemplea current">Temple B</a></li>
+                            <li><a href="temple-c.html" class="litemplea">Temple C</a></li>
+                            <li><a href="temple-d.html" class="litemplea">Temple D</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../reservation.html" class="lireservation">Reservation</a></li>
+                    <li><a href="../services.html" class="liservices">Services</a></li>
+                    <li><a href="../contact.html" class="licontact">Contact</a></li>
+                </ul>
+            </div>    	
+        </nav>
+
+        <div class="sitetitle">
+            <img src="../images/tis-logo.png" alt="Temple Inn &amp; Suites logo" class="logoimg">
+            <h1 id="pagename">Temple Inn &amp; Suites</h1>
+        </div>    
+
+    </header>
+
+    <main>
+    </main>
+    </div>
+    <footer><div id="foodate"></div><div><a href="../resources.html">Resources</a></div></footer>
+    <script src="../scripts/hamburger.js"></script>
+    <script src="../scripts/currentdate.js"></script>
+</body>
+</html>

@@ -25,7 +25,7 @@
         color: #005ca3;
     }
     
-    .current {
+    nav a.current, nav .alink.current {
         background-color: #ebc591;
         color: #003259;
     }
@@ -60,7 +60,7 @@
         color: #005ca3;
     }
     
-    nav a, .alink {
+    nav a, nav .alink {
         background-color: #f3d7b2;
         display: block;
         padding: 0.5em;

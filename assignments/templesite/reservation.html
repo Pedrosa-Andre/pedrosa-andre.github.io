@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Temple Inn &amp; Suites home page | Find reservations here!"><!-- change@@@@@@@  -->
+    <title>Home | Temple Inn &amp; Suites</title><!-- change@@@@@@@  -->
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/stylesheet.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script">
+</head>
+<body>
+    <div class="wrapper">
+    <header>
+
+        <nav id="navhamb">
+            <button onclick="toggleMenu()"> &#9776; </button>
+            <div class="memnubar">
+                <ul class="hide" id="hamb">
+                    <li><a href="home.html" class="lihome">Home</a></li>
+                    <li><div onclick="toggleMenu2()" class="alink">Temples</div>
+                        <ul class="hide" id="hamb2">
+                            <li><a href="temples/temple-a.html" class="litemplea">Temple A</a></li>
+                            <li><a href="temples/temple-b.html" class="litemplea">Temple B</a></li>
+                            <li><a href="temples/temple-c.html" class="litemplea">Temple C</a></li>
+                            <li><a href="temples/temple-d.html" class="litemplea">Temple D</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="reservation.html" class="lireservation current">Reservation</a></li>
+                    <li><a href="services.html" class="liservices">Services</a></li>
+                    <li><a href="contact.html" class="licontact">Contact</a></li>
+                </ul>
+            </div>    	
+        </nav>
+
+        <div class="sitetitle">
+            <img src="images/tis-logo.png" alt="Temple Inn &amp; Suites logo" class="logoimg">
+            <h1 id="pagename">Temple Inn &amp; Suites</h1>
+        </div>    
+
+    </header>
+
+    <main>
+        <article class="home">
+            <img srcset="images/san-diego-temple-small.jpg 500w,
+                         images/san-diego-temple.jpg 800w"
+                src="images/san-diego-temple-small.jpg" 
+                alt="san diego california temple"
+                id="homeimg">
+            <button id="reserv-bttn">Reserve Here</button>
+            <nav>
+                <span class="big" onclick="changeTo('pic1')" id="span1"></span>
+                <span class="" onclick="changeTo('pic2')" id="span2"></span>
+                <span class="" onclick="changeTo('pic3')" id="span3"></span>
+                <span class="" onclick="changeTo('pic4')" id="span4"></span>
+            </nav>
+            <p id="imgbox">The San Diego California Temple has a wonderful and modern design. 
+                Its shapes, resembling clear white crystals, remembers us of the importance of purity.</p>
+        </article>
+    </main>
+    </div>
+    <footer><div id="foodate"></div><div><a href="resources.html">Resources</a></div></footer>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/navchange.js"></script><!-- errase@@@@@@@  -->
+</body>
+</html>
